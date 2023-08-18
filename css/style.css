@@ -1,0 +1,92 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgb(24, 26, 27), rgb(40, 127, 11));
+    height: 100vh;
+}
+
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: white;
+}
+
+.logo
+{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.container
+{
+    border-radius: 15px;
+    max-width: 955px;
+    margin: auto;
+    height: 60vh;
+    border: 2px solid rgb(140, 130, 115);;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message
+{
+    background-color: rgb(57, 57, 18);;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid rgb(140, 130, 115);
+    border-radius: 10px;
+    color: white;
+}
+
+.left
+{
+    float: left;
+    clear: both;
+}
+
+.right
+{
+    float: right;
+    clear: both;
+}
+
+#send-container
+{
+    display: block;
+    margin: auto;
+    max-width: 1085px;
+    width: 100%;
+    text-align: center;
+}
+
+#messageInp
+{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+}
+
+
+.btn
+{
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid black;
+    height: 35px;
+    width: 9%;
+    font-size: 20px;
+    font-weight: bold;
+}
